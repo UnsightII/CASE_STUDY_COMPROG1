@@ -7,6 +7,10 @@ class Mobile{
     System.out.println(brand+" : "+price+" : "+name);
   }
 
+  public static void Show1(Mobile obj){
+    System.out.println(obj.brand+" : "+obj.price+" : "+name);
+  }
+
 }
 public class statics{
   public static void main(String[]args){
@@ -25,5 +29,7 @@ public class statics{
 
     obj1.Show();
     obj2.Show();
+
+    Mobile.Show1(obj1);
   }
 }
